@@ -1,0 +1,50 @@
+.row{
+    --bs-gutter-x:0;
+}
+.ti{
+    border-top:2px;
+    border-radius: 12px;
+    background-color: rgb(160, 160, 160);
+}
+.word {
+    padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 25px Segoe UI;
+        letter-spacing: 6.24px;
+        color: white;
+        text-shadow: 0px 0px 8px black;
+    }
+@media (min-width: 650px){
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 60px/69px Segoe UI !important;
+        letter-spacing: 6.24px;
+    }
+}
+@media (min-width: 500px){
+    .word {
+        padding-top: 10vh;
+            padding-bottom: 15vh;
+            display: flex;
+            justify-content: center;
+            width: 60vw;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+            font: normal normal bold 40px Segoe UI;
+            letter-spacing: 6.24px;
+    }
+}

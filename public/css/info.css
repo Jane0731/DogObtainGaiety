@@ -1,0 +1,120 @@
+body {
+    background-color: #f3eee6 !important;
+}
+
+.word {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal bold 25px Segoe UI;
+    letter-spacing: 6.24px;
+    color: #5d4646;
+}
+@media (min-width: 650px) {
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 60px/69px Segoe UI !important;
+        letter-spacing: 6.24px;
+        color: #5d4646;
+    }
+}
+@media (min-width: 500px) {
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 40px Segoe UI;
+        letter-spacing: 6.24px;
+        color: #5d4646;
+    }
+}
+
+.cover {
+    background-image: url(../pic/info.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+}
+
+.word_input {
+    color: #593d14;
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #ffffff;
+    border-color: #c7dbeb;
+    color: #b0cee4;
+    margin: auto;
+    border-width: 2px;
+    border-radius: 20px !important;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+.card-img-top img{
+    width: 100%;
+}
+.selected_card {
+    background-color: #b0cee4;
+    color: #ffffff;
+}
+.card:hover {
+    background-color: #b0cee4;
+    color: #ffffff;
+}
+.send_btn {
+    background-color: #dd8787;
+    border: 3px solid #f3eee6;
+    border-radius: 54px;
+    width: 8rem;
+    height: 3rem;
+    font: normal bold 20px Segoe UI;
+    color: #ffffff;
+}
+.send_btn_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iframe-rwd {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.border {
+    border-radius: 31px !important;
+}
+.bg {
+    background-color: #ffffff;
+}

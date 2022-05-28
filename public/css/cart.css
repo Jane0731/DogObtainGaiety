@@ -1,0 +1,136 @@
+body {
+    background-color: #f3eee6;
+    color: #655033;
+}
+.container-fluid {
+    padding-top: 5rem;
+}
+.border {
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+}
+.cart_t {
+    font: normal normal bold 12px Segoe UI;
+    letter-spacing: 1px;
+    color: #846357;
+    white-space: nowrap;
+}
+.cart_p {
+    font: normal normal bold 24px Segoe UI;
+    letter-spacing: 1.5px;
+    color: #846357;
+}
+.cart_o {
+    font: normal normal bold 16px Segoe UI;
+    letter-spacing: -0.53px;
+    color: #846357;
+    white-space: nowrap;
+}
+.cart_b {
+    background: #dd8787;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font: normal normal bold 14px Segoe UI;
+    white-space: nowrap;
+}
+.cart_o a {
+    text-decoration: none;
+}
+.cart_b:hover {
+    color: #ffffff;
+    border-color: #707070;
+}
+.cart_input_text{
+    max-width: 300px;
+}
+@media (min-width: 768px) {
+    .cart_t {
+        font-size: 15px;
+        letter-spacing: 2.24px;
+    }
+    .cart_p {
+        font-size: 30px;
+        letter-spacing: 3.29px;
+    }
+    .cart_o {
+        font-size: 18px;
+        letter-spacing: -0.53px;
+    }
+    .cart_b {
+        letter-spacing: 1.5px;
+        font-size: 16px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+.dog_qty,.donate_qty {
+    text-align: center;
+}
+.act {
+    color: #846357;
+    padding-bottom: 0.2rem;
+    border: rgba(118, 118, 118, 0.3) solid 1px;
+    border-radius: 2px;
+}
+.dog_img {
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    position: relative;
+}
+input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+}
+input[type="checkbox"]:checked::before {
+    content: "\2713";
+    background-color: #DD8787;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #DD8787;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.t_head{
+    display: none;
+}
+.item_total_price{
+    display: none !important;
+}
+@media (min-width: 768px){
+    .container-fluid {
+        padding-top: 8rem;
+    }
+    .t_head{
+        display: block;
+    }
+    .item_total_price{
+        display: flex !important;
+    }
+}

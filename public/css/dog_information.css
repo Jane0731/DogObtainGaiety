@@ -1,0 +1,187 @@
+.info {
+    background-color: #f3eee6;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    white-space: nowrap;
+}
+.info img {
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #83673f;
+}
+.healthy p,
+.info p,
+.story p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #83673f;
+}
+.row {
+    align-items: center;
+}
+
+.healthy {
+    background-color: #fffaf3;
+    padding-top: 20px;
+    white-space: nowrap;
+}
+
+.story {
+    background-color: #fff7eb;
+    padding-top: 20px;
+}
+.fixed-button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: calc(100vh - 150px);
+    right: 10px;
+}
+.fixed-button a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    color: #83673f;
+    text-decoration: none;
+    font-size: 12px;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 5px;
+    border: #83673f 1px solid;
+}
+.fixed-button a * {
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+.fixed-button img {
+    width: 36px;
+}
+.introduce{
+    padding-left: 2rem;
+}
+.bu {
+    background: #dd8787 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    text-align: left;
+    font: normal normal bold 14px Segoe UI;
+    letter-spacing: 0.2px;
+    color: #f5f5f5;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .healthy p,
+    .info p,
+    .story p {
+        font-size: 22px;
+    }
+    .fixed-button a {
+        font-size: 16px;
+        width: 100px;
+        height: 100px;
+    }
+    .fixed-button img {
+        width: 50px;
+    }
+    .bu {
+        font-size: 18px;
+        letter-spacing: 0.2px;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .introduce{
+        padding-left: 0rem;
+    }
+}
+.qty {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+input.qtyplus {
+    width: 40px;
+    height: 35px;
+    background-color: #fffeee;
+    border: none;
+    color: #676894;
+}
+
+input.qtyminus {
+    width: 40px;
+    height: 35px;
+    background-color: #fffeee;
+    border: none;
+    color: #676894;
+}
+.modal-content {
+    background-color: #fffeee;
+    border: 7px solid #a7c2e1;
+    border-radius: 29px;
+}
+.modal-content .modal-header{
+    border-bottom: 1px solid #a7c2e1;   
+}
+.modal-content .modal-body{
+    border-bottom: 1px solid #a7c2e1;   
+}
+.modal_title {
+    font: normal normal bold 24px Segoe UI;
+    letter-spacing: -1.84px;
+    color: #676894;
+}
+.close {
+    border: none;
+    background-color: #fffeee;
+}
+.modal_btn_s {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    font: normal normal bold 26px Segoe UI;
+    padding: 0.3rem 1.1rem;
+    letter-spacing: -2.12px;
+    color: #56b800;
+}
+
+.modal_btn_c {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 0.3rem 1.1rem;
+    font: normal normal bold 26px Segoe UI;
+    letter-spacing: -2.12px;
+    color: #e07852;
+}
+.sponsor a {
+    text-decoration: none;
+}
+
+.sponsor a:hover {
+    color: white;
+}
+
+.sponsor span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #b12e2e;
+    white-space: pre-wrap;
+}

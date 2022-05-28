@@ -1,0 +1,191 @@
+body {
+    background: #f3eee6 0% 0% no-repeat padding-box;
+    font-family: Segoe UI;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #6a6354;
+    outline: 0;
+    box-shadow: none;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #6a6354;
+    border-color: #eeae19;
+}
+
+.bg-info {
+    background-color: rgb(245, 245, 245) !important;
+    color: black;
+}
+
+.bg-info.active {
+    background-color: #eeae19 !important;
+    color: white;
+}
+#slider {
+    height: 20px;
+    width: 20px;
+    background: #2394F5;
+    margin: 15px;
+    }
+.list-group-item {
+    border: none;
+}
+.ct-l {
+    text-align: left;
+    color: #646592;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.ct-r {
+    text-align: right;
+    color: #646592;
+    font-size: 15px;
+    font-weight: bolder;
+}
+h5 card-title {
+    color: #646592;
+    font-weight: bolder;
+}
+.cover {
+    background-image: url(../pic/donate_list.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+}
+.card {
+    border-radius: 0.55rem;
+}
+.card-img-top {
+    border-radius: 1.5rem;
+}
+.mycontent-left {
+    border-right: 1px solid #f0e7e0;
+}
+
+.mycontent-bottom {
+    border-bottom: 5px solid rgb(240, 190, 55);
+}
+
+tr,
+td {
+    color: #5d4646;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ffffff;
+}
+.tg td {
+    font-family: Segoe UI;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ffffff;
+}
+.tg th {
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0px 0px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ffffff;
+}
+.tg .tg-iwtr {
+    background-color: #ffffff;
+    color: #5d4646;
+    vertical-align: top;
+}
+.tg .tg-yzt1 {
+    background-color: #ffffff;
+    vertical-align: top;
+}
+.tg .tg-bsv2 {
+    background-color: #ffffff;
+}
+.des {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space : nowrap;
+    height: 1rem;
+    margin: 0;
+}
+@media all and (max-width: 479px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+}
+
+thead {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #646592;
+}
+
+a:link {
+    text-decoration: none;
+    color: #646592;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #646592;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #646592;
+}
+
+a:active {
+    text-decoration: none;
+    color: #646592;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: #655033;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.pagination li a.active {
+    background-color: #655033;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}

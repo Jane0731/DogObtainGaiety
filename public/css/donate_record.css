@@ -1,0 +1,81 @@
+body {
+    background: #f3eee6 0% 0% no-repeat padding-box;
+    font-family: Segoe UI;
+}
+
+.word {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal bold 25px Segoe UI;
+    letter-spacing: 6.24px;
+    color: #5d4646;
+}
+@media (min-width: 650px) {
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 60px/69px Segoe UI !important;
+        letter-spacing: 6.24px;
+        color: #5d4646;
+    }
+}
+@media (min-width: 500px) {
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 40px Segoe UI;
+        letter-spacing: 6.24px;
+        color: #5d4646;
+    }
+}
+.cover {
+    background-image: url(../pic/donate_record_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+}
+.border {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.border_hr {
+    border: 0.05px solid gray;
+}
+.border_title {
+    font: 14px Segoe UI;
+    letter-spacing: 1.5px;
+    color: #5d4646;
+}
+.border_content {
+    font: 12px Segoe UI;
+    letter-spacing: 1px;
+    color: #5d4646;
+}
+@media (min-width: 768px) {
+    .border_title {
+        font-size: 26px;
+        letter-spacing: 3.95px;
+    }
+    .border_content {
+        font-size: 22px;
+        letter-spacing: 3.33px;
+    }
+}

@@ -1,0 +1,115 @@
+body {
+    background-color: #F3EEE6 !important;
+}
+.container-fluid-regist,.container-fluid-login{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-items: center;
+}
+.container-fluid-regist{
+    background-image:url(../pic/signup_rwd.png);
+}
+.container-fluid-login{
+    background-image:url(../pic/login_rwd.png);
+}
+.box h1{
+    font: normal bold 40px Segoe UI !important;
+    letter-spacing: 20px;
+    color: #83673F;
+    text-align: center;
+}
+.bg-title{
+    backdrop-filter:url(filters.svg#filter) opacity(40%);
+}
+input{
+    background: #FCFCFC 0% 0% no-repeat padding-box !important;
+    border: 1px solid #707070 !important;
+    border-radius: 24px !important;
+    font-size: 22px !important;
+    padding: 1px 10px;
+    width: 90%;
+}
+input:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 1pt black;
+}
+::-webkit-input-placeholder {
+    font: normal normal bold 20px/71px Segoe UI;
+    letter-spacing: 3.95px;
+    color: #83673F; 
+    opacity: 0.46;
+}
+.send_btn{
+    border: 3px solid #F3EEE6 !important;
+    background: #DD8787 0% 0% no-repeat padding-box !important;
+    border-radius: 54px !important;
+    color: #ffffff;
+    padding: 8px !important;
+    font-family:  Segoe UI;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+.p_font{
+    font:normal bold 19px Segoe UI;
+    letter-spacing: 1px;
+    color: #83673F;
+}
+button{
+    border:none !important;
+    background-color:rgba(255,255,255,0) !important;
+}
+button img{
+    width: 80px;
+}
+.pp_font{
+    font: normal normal bold 19px Segoe UI;
+    color: #83673F;
+}
+@media (min-width: 694px){
+    .box h1{
+        font-size: 60px;
+    }
+    input{
+        font-size: 30px !important;
+        width: auto;
+    }
+    ::-webkit-input-placeholder {
+        font: 38px !important;
+    }
+    .p_font{
+        font-size: 24px;
+        letter-spacing: 3.95px;
+    }
+    .pp_font{
+        font: normal normal bold 25px Segoe UI;
+    }
+    .send_btn{
+        font-size: 40px !important;
+    }
+    .container-fluid-regist{
+        width: 100%;
+        padding: 0 !important;
+        background-image:url(../pic/signup.png);
+        background-repeat:no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-items: center;
+        background-position: right top;
+    }
+    .container-fluid-login{
+        width: 100%;
+        padding: 0 !important;
+        background-image:url(../pic/login.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        display: flex;
+        justify-items: center;
+    }
+    button img{
+        width: 100px;
+    }
+}

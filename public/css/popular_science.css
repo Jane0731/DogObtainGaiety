@@ -1,0 +1,203 @@
+body {
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    font-family: Segoe UI;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #6a6354;
+    outline: 0;
+    box-shadow: none;
+}
+#acc-item {
+    border-radius: 12px;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #6a6354;
+    border-color: #eeae19;
+}
+.bg-info {
+    background-color: rgb(245, 245, 245) !important;
+    color: black;
+}
+.bg-info.active {
+    background-color: #eeae19 !important;
+    color: white;
+}
+.list-group-item {
+    border: none;
+}
+.word {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal bold 25px Segoe UI;
+    letter-spacing: 6.24px;
+    color: #5d4646;
+}
+@media (min-width: 650px) {
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 60px/69px Segoe UI !important;
+        letter-spacing: 6.24px;
+        color: #5d4646;
+    }
+}
+@media (min-width: 500px) {
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 40px Segoe UI;
+        letter-spacing: 6.24px;
+        color: #5d4646;
+    }
+}
+.cover {
+    background-image: url(../pic/QA1.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+}
+
+.astyle {
+    color: #6a6354;
+    font-size: 16px;
+    background-color: rgb(245, 245, 245);
+}
+.acc-style {
+    border: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #6a6354;
+    background-color: rgb(245, 245, 245);
+}
+#acc-button {
+    border-radius: 8px;
+    color: #6a6354;
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(245, 245, 245);
+    font: normal normal bold 12px Segoe UI;
+    letter-spacing: 1px;
+}
+.acc-ins {
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+.s-style {
+    text-align: center;
+    color: #6a6354;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+ul li {
+    list-style-type: none;
+    list-style-image: url(../pic/point.png);
+}
+.fixed-button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: calc(100vh - 100px);
+    right: 10px;
+    z-index: 999;
+}
+.fixed-button a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    color: #83673f;
+    text-decoration: none;
+    font-size: 12px;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 5px;
+    border: #83673f 1px solid;
+}
+.fixed-button a * {
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+.fixed-button img {
+    width: 36px;
+}
+.accordion-button{
+    padding: 0.5rem 0.35rem !important;
+}
+
+.accordion-body {
+    font-size: 10px ;
+    word-break: break-all;}
+@media (min-width: 768px) {
+    .fixed-button{
+        top: calc(100vh - 120px);
+    }
+    .fixed-button a {
+        font-size: 16px;
+        width: 100px;
+        height: 100px;
+    }
+    .fixed-button img {
+        width: 50px;
+    }
+    #acc-button {
+        font-size: 20px !important;
+        letter-spacing: 3.29px !important;
+    } 
+    .accordion-button{
+        padding: 1rem 1.25rem;
+    }
+    .astyle {
+        font-size: 22px !important;
+    }
+    .s-style {
+        font-size: 28px !important;
+    }
+    .accordion-body {
+        font-size: 18px !important;
+    }
+}
+@media (min-width: 420px) {
+    #acc-button {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    } 
+    .astyle {
+        font-size: 18px;
+    }
+    .s-style {
+        font-size: 24px !important;
+    }
+    .accordion-body {
+        font-size: 14px ;
+    }
+}

@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+/*插入導覽列*/
+.nav {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 100;
+}
+.nav ul li {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5) inset;
+    cursor: pointer;
+    border-radius: 50%;
+    list-style-type: none;
+}
+.nav ul li.active {
+    background-color: darkcyan;
+}
+
+/*每頁顯示的圖片*/
+.p01,
+.p02,
+.p03,
+.p04,
+.p05 {
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.index_text {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    font-size: 16px;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    z-index: 10;
+}
+.index_text span {
+    font-size: 1.2rem;
+    padding: 0.5px;
+    margin: 2px;
+    font-weight: bold;
+    background: #fff;
+}
+@media (min-width:786px) {
+    .index_text {
+        top: 100px;
+        right: 50px;
+    }
+    .index_text span {
+        font-size: 2rem;
+        padding: 1px;
+    }
+}
+/* @media (min-width: 768px) { 
+    .index_text span{
+        font-size: 2rem;
+        padding: 1px;
+    }
+}*/
+#index_1,#index_2,#index_3,#index_4,#index_5 {
+    position: relative;
+    min-width: 100vw;
+    min-height: calc(100vh + 100px);
+    object-fit: cover;
+}
+.vrl {
+    writing-mode: vertical-rl;
+}

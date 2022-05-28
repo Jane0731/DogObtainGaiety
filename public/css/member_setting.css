@@ -1,0 +1,94 @@
+body {
+    background-color: #f3eee6 !important;
+}
+.member_setting {
+    font: normal normal bolder 25px Segoe UI !important;
+    letter-spacing: -2.3px;
+    color: #83673f;
+}
+.p_font {
+    font: normal normal bold 14px Segoe UI;
+    color: #83673f;
+    margin-top: 1rem;
+}
+.mehr {
+    border-bottom: 0.05rem solid grey;
+}
+.c_font {
+    font: normal normal 14px Segoe UI;
+    color: #83673f;
+    margin-top: 1rem;
+}
+input {
+    border: 0;
+    outline: none;
+    background-color: #f3eee6;
+}
+.i {
+    font-size: 14px;
+    margin-top: 1rem;
+    color: #83673f;
+    border: 0px !important;
+    background-color: #f3eee6;
+}
+.dis {
+    margin-left: 8.33333333%;
+    width: 16.66666667% !important;
+    flex: 0 0 auto;
+}
+@media (min-width: 580px) {
+    .p_font {
+        font: normal normal bold 22px Segoe UI;
+    }
+    .c_font {
+        font: normal normal 22px Segoe UI;
+    }
+    .i {
+        font-size: 25px;
+    }
+    .dis {
+        margin-left: 16.66666667%;
+        width: 8.33333333% !important;
+    }
+    h1 {
+        font: normal normal bolder 30px Segoe UI !important;
+        letter-spacing: -1px;
+        color: #83673f;
+        margin-left: 1.5rem;
+    }
+}
+.dis_bu {
+    background: #fff7e9;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #83673f;
+    border-radius: 22px;
+}
+.modal-content {
+    background-color: #fffeee;
+    border: 7px solid #a7c2e1;
+    border-radius: 29px;
+}
+.modal-content .modal-header{
+    border-bottom: 1px solid #a7c2e1;   
+}
+.modal-content .modal-body{
+    border-bottom: 1px solid #a7c2e1;   
+}
+.modal-title {
+    font: normal normal bold 24px Segoe UI;
+    letter-spacing: -1.84px;
+    color: #83673f;
+}
+.close {
+    border: none;
+    background-color: #fffeee;
+}
+.modal_btn {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    font: normal normal bold 20px Segoe UI;
+    padding: 0.3rem 1.1rem;
+    letter-spacing: -2.12px;
+    color: #83673f;
+}

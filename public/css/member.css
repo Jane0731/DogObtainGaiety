@@ -1,0 +1,99 @@
+body {
+    background-color: #F3EEE6 !important;
+}
+.word {
+    padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 25px Segoe UI;
+        letter-spacing: 6.24px;
+        color: #5D4646;
+}
+.cover {
+    background-image: url(../pic/member.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+
+}
+
+.word_input {
+    color: #593D14;
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+.card {
+    font: normal normal normal 20px Segoe UI;
+    letter-spacing: 3.64px;
+    color: #83673F;
+    background-color: #ffffff;
+    border: 2px solid #707070;
+    border-width: 2px;
+    border-radius: 18px!important;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.card:hover{
+    margin: 0 !important;
+    padding: -2px;
+    transition: 0.1s;
+}
+.card img{
+    height: 100px;
+}
+.card-body {
+    padding: 1rem 0;
+}
+.card-text{
+    white-space: nowrap;
+    letter-spacing: 0px;
+}
+@media (min-width: 650px){
+    .word {
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        font: normal normal bold 60px/69px Segoe UI !important;
+        letter-spacing: 6.24px;
+        color: #5D4646;
+    }
+}
+@media (min-width: 576px){
+    .word {
+        padding-top: 10vh;
+            padding-bottom: 15vh;
+            display: flex;
+            justify-content: center;
+            width: 60vw;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+            font: normal normal bold 40px Segoe UI;
+            letter-spacing: 6.24px;
+            color: #5D4646;
+    }
+    .card{
+        margin: 10px;
+        font-size: 30px;
+        transition: 0.3s;
+    }
+    .card:hover{
+        margin: 0;
+        padding: 10px;
+    }
+    .card img{
+        height: 150px;
+    }
+}

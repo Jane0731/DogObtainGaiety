@@ -1,0 +1,148 @@
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    transition: 0.2s;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.menu {
+    position: relative;
+    display: flex;
+    top: 5px;
+    right: 5px;
+    float: right;
+    overflow: hidden;
+    align-items: flex-start;
+}
+.member {
+    float: left;
+    margin-left: 2px;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    box-sizing: unset;
+    border: 2px gainsboro solid;
+}
+.member div {
+    position: relative;
+    font-size: 1px;
+    top: -4px;
+    left: -2px;
+    width: 0;
+    height: 0;
+}
+.member div {
+    color: rgb(172, 141, 57);
+}
+.list {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 24px;
+    border: 2px gainsboro solid;
+    color: rgb(172, 141, 57);
+}
+.option {
+    display: flex;
+    padding: 0 !important;
+    flex-direction: column;
+    box-sizing: unset;
+}
+.option a {
+    padding: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(172, 141, 57);
+    background-color: white;
+    box-sizing: unset;
+}
+.option a:hover {
+    font-weight: bold;
+    color: rgb(172, 141, 57);
+}
+.burger {
+    border-radius: 24px;
+    display: flex;
+    background-color: white !important;
+    box-sizing: unset;
+}
+.burger:hover {
+    cursor: pointer;
+}
+.menu img {
+    height: 14px;
+    margin: 1px;
+    background-color: white;
+}
+.menu img:hover {
+    height: 16px;
+    margin: 0px;
+}
+.hidelist {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    transition: 0.2s;
+    padding: 0 !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.showlist {
+    width: unset;
+    height: 18px;
+    transition: 0.2s;
+    white-space: unset;
+    overflow: unset;
+}
+
+@media (min-width: 786px) {
+    .list {
+        padding: 15px;
+        border-radius: 24px;
+    }
+    .option {
+        display: flex;
+        padding: 0 !important;
+        flex-direction: row;
+    }
+    .option a {
+        padding: 0 10px;
+    }
+    .member {
+        margin-left: 10px;
+        padding: 15px;
+        border-radius: 40px;
+    }
+    .menu img {
+        height: 16px;
+        margin: 1px;
+        background-color: white;
+    }
+    .menu img:hover {
+        height: 18px;
+        margin: 0px;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 160px;
+        transition: 0.2s;
+    }
+}
+.main {
+    min-height: 100vh;
+}

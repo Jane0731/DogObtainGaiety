@@ -1,0 +1,209 @@
+body {
+    background-color: #f3eee6;
+    font-family: Segoe UI;
+}
+.main{
+    display: flex;
+}
+.card {
+    background-color: #f3eee6;
+    border-radius: 8px;
+    border-color: #f3eee6;
+}
+
+.border {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.rounded-start {
+    border-bottom-left-radius: 0.95rem !important;
+    border-top-left-radius: 0.95rem !important;
+    border-bottom-right-radius: 0.95rem !important;
+    border: 1px solid #707070;
+}
+
+.cstyle {
+    width: 12rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 29px;
+    opacity: 1;
+    margin: 10px;
+}
+
+.cpic {
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.ccontent {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.carstyle {
+    background-color: white;
+    width: 190px;
+    height: 188px;
+    border-radius: 29px;
+}
+
+.tstyle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ctitlel {
+    text-align: left;
+    font: normal normal bold 30px/49px Segoe UI;
+    letter-spacing: 7.28px;
+    color: #83673f;
+    opacity: 1;
+}
+
+.ctitler {
+    text-align: left;
+    font: normal normal bold 25px/44px Segoe UI;
+    letter-spacing: 5.72px;
+    color: #83673f;
+    opacity: 1;
+}
+
+
+.img_round {
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+
+.btn-special {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 4px 3px 6px #00000029;
+    border: 1px solid #201a40;
+    border-radius: 40px;
+    opacity: 1;
+    font: normal normal bold 16px Segoe UI;
+    letter-spacing: 0.5px;
+    color: #8cd1eb;
+    opacity: 1;
+}
+
+.btn-special:hover {
+    background: #8cd1eb 0% 0% no-repeat padding-box;
+    box-shadow: 4px 3px 6px #00000029;
+    border: 1px solid #201a40;
+    border-radius: 40px;
+    opacity: 1;
+    font: normal normal bold 20px Segoe UI;
+    letter-spacing: 2px;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.tdword {
+    text-align: left;
+    font: normal normal bold 18px/25px Segoe UI;
+    letter-spacing: 1.33px;
+    color: #83673f;
+    opacity: 1;
+}
+
+.act_record {
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 19px;
+}
+.act_record_title {
+    text-align: center;
+    font: normal normal bold 20px/34px Segoe UI;
+    letter-spacing: 4.72px;
+    color: #83673f;
+}
+.des {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.border_hr{
+    border: 0.05px solid gray;
+}
+
+.close {
+    border: none;
+    background-color: #f3f2f1;
+}
+
+.modal-content{
+    background-color: #f3f2f1;
+}
+
+.modal_btn_c {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 0.3rem 1.1rem;
+    font: normal normal bold 26px Segoe UI;
+    letter-spacing: -2.12px;
+    color: #e07852;
+}
+
+.fixed-button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: calc(100vh - 150px);
+    right: 10px;
+}
+.fixed-button a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    color: #83673f;
+    text-decoration: none;
+    font-size: 12px;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 5px;
+    border: #ccc 1px solid;
+}
+.fixed-button a * {
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+.fixed-button img {
+    width: 36px;
+}
+
+@media (min-width: 768px) {
+    .tdword {
+        font: normal normal bold 20px/39px Segoe UI;
+        letter-spacing: 3.33px;
+    }
+    .btn-special {
+        font: normal normal bold 20px Segoe UI;
+        letter-spacing: 1px;
+    }
+    .act_record_title {
+        font: normal normal bold 25px/44px Segoe UI;
+        letter-spacing: 5.72px;
+    }
+    .fixed-button a {
+        font-size: 16px;
+        width: 100px;
+        height: 100px;
+    }
+    .fixed-button img {
+        width: 50px;
+    }
+}

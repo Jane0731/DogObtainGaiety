@@ -1,0 +1,179 @@
+body {
+    background-color: #f3eee6;
+    color: #655033;
+}
+.d_content {
+    font-size: 16px;
+    font-weight: bold;
+    color: #83673f;
+    letter-spacing: 3.13px;
+}
+
+.d_title {
+    font-weight: bold;
+    letter-spacing: 8.82px;
+    color: #83673f;
+}
+.bu {
+    background: #dd8787 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    text-align: left;
+    font: normal normal bold 14px Segoe UI;
+    letter-spacing: 0.2px;
+    color: #f5f5f5;
+}
+.border {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 30px;
+}
+.bc {
+    margin: 1.5rem;
+    font: normal normal bold 18px Segoe UI;
+    color: #5d4646;
+}
+.close {
+    border: none;
+    background-color: #fffeee;
+}
+.modal_btn_s {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    font: normal normal bold 26px Segoe UI;
+    padding: 0.3rem 1.1rem;
+    letter-spacing: -2.12px;
+    color: #56b800;
+}
+
+.modal_btn_c {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    padding: 0.3rem 1.1rem;
+    font: normal normal bold 26px Segoe UI;
+    letter-spacing: -2.12px;
+    color: #e07852;
+}
+
+.card-img-top {
+    padding: 5rem;
+    border-radius: 1.5rem;
+}
+.description {
+    border: gray solid 0px;
+    border-top: gray solid 1px;
+    border-radius: 10px;
+}
+.fixed-button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: calc(100vh - 150px);
+    right: 10px;
+}
+.fixed-button a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    color: #83673f;
+    text-decoration: none;
+    font-size: 12px;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 5px;
+    border: #83673f 1px solid;
+}
+.fixed-button a * {
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+.fixed-button img {
+    width: 36px;
+}
+@media (min-width: 768px) {
+    .d_content {
+        font-size: 20px;
+    }
+
+    .d_title {
+        font-size: 25px;
+    }
+    .bc {
+        font-size: 20px;
+    }
+    .description {
+        border: gray solid 1px;
+    }
+    .bu {
+        font-size: 18px;
+        letter-spacing: 0.2px;
+    }
+    .fixed-button a {
+        font-size: 16px;
+        width: 100px;
+        height: 100px;
+    }
+    .fixed-button img {
+        width: 50px;
+    }
+}
+
+@media (min-width: 991px) {
+    .d_content {
+        font-size: 22px;
+    }
+
+    .d_title {
+        font-size: 30px;
+    }
+    .bc {
+        font-size: 25px;
+    }
+}
+.qty {
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+input.qtyplus {
+    width: 40px;
+    height: 35px;
+    background-color: #fffeee;
+    border: none;
+    color: #676894;
+}
+
+input.qtyminus {
+    width: 40px;
+    height: 35px;
+    background-color: #fffeee;
+    border: none;
+    color: #676894;
+}
+.modal-content {
+    background-color: #fffeee;
+    border: 7px solid #a7c2e1;
+    border-radius: 29px;
+}
+.modal-content .modal-header {
+    border-bottom: 1px solid #a7c2e1;
+}
+.modal-content .modal-body {
+    border-bottom: 1px solid #a7c2e1;
+}
+.modal_title {
+    font: normal normal bold 24px Segoe UI;
+    letter-spacing: -1.84px;
+    color: #676894;
+}
+

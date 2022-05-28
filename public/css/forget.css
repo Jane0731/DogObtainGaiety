@@ -1,0 +1,76 @@
+body {
+    background-color: #f3eee6;
+}
+.container {
+    min-height: calc(100vh - 321px);
+    overflow: hidden;
+}
+.border {
+    margin-top: 8rem;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070 !important;
+    border-radius: 17px;
+}
+.forget_text {
+    font: normal normal bold 16px Segoe UI;
+    letter-spacing: 3.64px;
+    color: #897b64;
+    text-align: center;   
+     
+
+}
+
+.forget_input {
+    background: #fcfcfc 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 24px;
+    padding: 2px 10px;
+    font-size: 18px;
+}
+.forget_input:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 1pt black;
+}
+::-webkit-input-placeholder {
+    text-align: left;
+    font: normal normal bold 18px Segoe UI;
+    letter-spacing: 3.85px;
+    color: #83673f;
+    opacity: 0.46;
+}
+
+.forget_submit {
+    background: #ffa74c 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 10px;
+    font: normal normal bold 28px Segoe UI;
+    letter-spacing: 3.54px;
+    color: #ffffff;
+    width: 100%;
+}
+.forget_back button{
+    width: 100%;
+    border-radius: 17px;
+    font-size: 18px;
+    height: 50px;
+    background-color: white;
+}
+
+@media (min-width: 768px){
+    .forget_text {
+        font-size:26px ;
+        letter-spacing: 3.64px;
+        color: #897b64;
+        text-align: center;   
+    }
+    .forget_input {
+        font-size: 28px;
+    }
+    .forget_submit {
+        font-size: 28px;
+    }
+    ::-webkit-input-placeholder {
+        font:28px;
+    }
+}

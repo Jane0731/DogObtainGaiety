@@ -1,0 +1,124 @@
+body {
+    background: #f3eee6 0% 0% no-repeat padding-box;
+    font-family: Segoe UI;
+}
+
+.word {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    height: auto;
+    color: #6a6354;
+    margin: 0 auto;
+    text-align: center;
+}
+.cover {
+    background-image: url(../pic/charity.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+    opacity: 1;
+}
+.first_border {
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+}
+
+.link {
+    font: normal normal bold 16px Segoe UI;
+    letter-spacing: 2px;
+    color: #5d4646;
+}
+
+.first {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+
+
+.first_word {
+    text-align: left;
+    font: normal normal bold 16px Segoe UI;
+    letter-spacing: 2px;
+    color: #5d4646;
+    opacity: 1;
+    text-decoration:underline #ddbc76 wavy 2px;
+}
+a{
+    text-decoration: none;
+}
+.first_des {
+    font: normal normal bold 12px Segoe UI;
+    letter-spacing: 5.2px;
+    color: #5d4646;
+    word-break: break-all;
+    padding: 0.5rem;
+}
+.pad {
+    padding: 5%;
+}
+
+.dog_img {
+    width: 100%;
+    border-radius: 10px;
+}
+.dog_donate_blood_img {
+    width: 70%;
+    max-width: 300px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.dog_donate_blood_img.gray{
+    filter: grayscale();
+}
+.border {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    font: normal normal bold 12px Segoe UI;
+}
+.hos{
+    width: 25px;
+}
+@media (min-width: 768px) {
+    .border {
+        font-size: 20px;
+    }
+
+    .first_word {
+       font-size: 26px;
+       letter-spacing: 5.2px;
+       text-decoration:underline #ddbc76 wavy 4px;
+    }
+    .first_des {
+       font-size: 20px !important;
+       padding: 1.5rem!important;
+    }
+    .hos{
+        width: 50px;
+    }
+    .link {
+        font-size: 28px;
+        letter-spacing: 5.1px;
+    }
+ 
+}
+@media (min-width: 510px) {
+    .first_des {
+       font-size: 14px;
+       padding: 1rem;
+    }
+    .first_word {
+        font-size: 22px;
+     }
+     .link {
+        font-size: 22px;
+    }
+  
+}
